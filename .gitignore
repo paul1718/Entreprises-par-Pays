@@ -1,0 +1,14 @@
+# Ignorer tous les sous-dossiers (chaque dossier de pays généré)
+/*/
+
+# Fichiers temporaires Excel et cache Python
+~$*
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+
+# Environnements et secrets locaux
+.env
+.env.local
+.env.*.local
